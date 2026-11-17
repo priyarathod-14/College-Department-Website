@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Engineering Department</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Computer Engineering</h2>
+
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#labs">Labs</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#placements">Placements</a>
+        <a href="#contact">Contact</a>
+        <button onclick="toggleMode()"><i class="fas fa-moon"></i></button>
+    </div>
+</nav>
+
+<section id="home" class="home">
+
+    <div class="home-content">
+        <p class="tag">DEPARTMENT OF COMPUTER ENGINEERING</p>
+
+        <h1>Building the Future<br>with Technology</h1>
+
+        <p class="intro-text">
+            Welcome to the Computer Engineering Department. We focus on
+            practical learning, innovation and preparing students for
+            successful careers in the technology industry.
+        </p>
+
+        <div class="home-buttons">
+            <a href="#about">Explore Department</a>
+            <a href="#faculty">Meet Our Faculty</a>
+        </div>
+    </div>
+
+</section>
+
+<section id="about">
+    <h2>About the Department</h2>
+
+    <div class="about-box">
+        <p>
+            The Department of Computer Engineering provides quality education
+            in programming, software development, data structures, databases,
+            networking and emerging technologies.
+        </p>
+
+        <p>
+            The department focuses on practical learning, technical skills,
+            innovation and preparing students for higher education and
+            professional careers in the IT industry.
+        </p>
+    </div>
+</section>
+
+<section id="faculty">
+    <h2>Our Faculty</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+            <h3>Dr. Vidyullata Devmane</h3>
+            <p>Head of Department</p>
+            <span>Ph.D. in Computer Engineering</span>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <h3>Prof. Sarika Rane</h3>
+            <p>Assistant Professor</p>
+            <span>Computer Networks & DBMS</span>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="fas fa-user-graduate"></i></div>
+            <h3>Prof. Vaishali Kosumbkar</h3>
+            <p>Assistant Professor</p>
+            <span>Artificial Intelligence & ML</span>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="fas fa-chalkboard"></i></div>
+            <h3>Prof. Shreyasee Patra</h3>
+            <p>Assistant Professor</p>
+            <span>Web Development & Programming</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="labs">
+    <h2>Laboratories</h2>
+
+    <div class="cards">
+
+        <div class="card lab">
+            <h3><i class="fas fa-laptop-code"></i> Programming Lab</h3>
+            <p>Practical learning of C, C++, Python and Java programming.</p>
+        </div>
+
+        <div class="card lab">
+            <h3><i class="fas fa-globe"></i> Web Technology Lab</h3>
+            <p>Development of modern websites using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="card lab">
+            <h3><i class="fas fa-robot"></i> AI & ML Lab</h3>
+            <p>Hands-on learning of Artificial Intelligence and Machine Learning.</p>
+        </div>
+
+        <div class="card lab">
+            <h3><i class="fas fa-database"></i> Database Lab</h3>
+            <p>Practical implementation of SQL, databases and data management.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="syllabus">
+    <h2>Syllabus</h2>
+
+    <div class="syllabus-box">
+        <button onclick="showSemester(3)">Semester III</button>
+        <button onclick="showSemester(4)">Semester IV</button>
+        <button onclick="showSemester(5)">Semester V</button>
+        <button onclick="showSemester(6)">Semester VI</button>
+
+        <div id="subjects">
+            <h3>Select a semester</h3>
+            <p>Click a semester to view subjects.</p>
+        </div>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+
+    <div class="stats">
+
+        <div>
+            <h3>25+</h3>
+            <p>Student Projects</p>
+        </div>
+
+        <div>
+            <h3>15+</h3>
+            <p>Technical Events</p>
+        </div>
+
+        <div>
+            <h3>10+</h3>
+            <p>Industry Workshops</p>
+        </div>
+
+        <div>
+            <h3>20+</h3>
+            <p>Student Certifications</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="placements">
+    <h2>Placement Statistics</h2>
+
+    <div class="placement">
+
+        <div class="placement-card">
+            <h3>92%</h3>
+            <p>Placement Rate</p>
+        </div>
+
+        <div class="placement-card">
+            <h3>8.5 LPA</h3>
+            <p>Highest Package</p>
+        </div>
+
+        <div class="placement-card">
+            <h3>5.2 LPA</h3>
+            <p>Average Package</p>
+        </div>
+
+        <div class="placement-card">
+            <h3>35+</h3>
+            <p>Recruiting Companies</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Department</h2>
+
+    <div class="contact">
+
+        <div>
+            <h3><i class="fas fa-map-marker-alt"></i> Address</h3>
+            <p>Computer Engineering Department,<br>
+                SAKEC, Mahavir Education Trust Chowk, Chembur, Mumbai, Maharashtra - 400088.</p>
+        </div>
+
+        <div>
+            <h3><i class="fas fa-envelope"></i> Email</h3>
+            <p>info@sakec.ac.in</p>
+        </div>
+
+        <div>
+            <h3><i class="fas fa-phone"></i> Phone</h3>
+            <p>022-25580854</p>
+        </div>
+
+        <div>
+            <h3><i class="fas fa-clock"></i> Office Hours</h3>
+            <p>Monday – Friday<br>9:00 AM – 4:00 PM</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Computer Engineering Department | College Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
